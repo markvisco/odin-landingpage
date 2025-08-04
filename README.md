@@ -1,0 +1,1 @@
+This landing page project SHOULD show my newly acquired skills with HTML and CSS. After months of learning via The Odin Project, this should be the culmination before moving onto Javascript and beyond.
