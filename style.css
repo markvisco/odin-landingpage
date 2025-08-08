@@ -13,6 +13,7 @@ body {
     display:flex;
     width: 100%;
 
+
 }
 
 .header {
@@ -21,6 +22,8 @@ body {
     align-items: center;
     height: 85px;
     width: 100%;
+    border: red;
+    border-style: solid;
 }
 
 .lefthead {
@@ -52,12 +55,16 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
-}
+    border: red;
+    border-style: solid;
+} 
 
 .hero-left {
     color: white;
     display:flex;
     flex-direction: column;
+    border: red;
+    border-style: solid;
 
 }
 
@@ -65,6 +72,8 @@ body {
     width: 400px;
     height: 200px;
     background-color: gray;
+    border: red;
+    border-style: solid;
 }
 
 button {
@@ -88,18 +97,25 @@ h1 {
 /* Below is all random info section*/
 
 .random-section {
-    height: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    border: red;
+    border-style: solid;
+    justify-content: center;
+    gap: 20px;
 
 }
 
 h2 {
     text-align: center;
+
 }
 
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 45px    
+    gap: 45px
 }
 
 .bluebox1, .bluebox2, .bluebox3, .bluebox4 {
@@ -109,4 +125,10 @@ h2 {
     border-radius: 15px;
     border-color: #3882f6;
     border-style: solid;
+}
+
+.subtext {
+    text-align: center;
+    margin-top: 15px;
+
 }
