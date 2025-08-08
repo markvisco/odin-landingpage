@@ -61,7 +61,7 @@ body {
 
 }
 
-.box {
+.hero-box {
     width: 400px;
     height: 200px;
     background-color: gray;
@@ -85,3 +85,28 @@ h1 {
     margin-bottom: 5px;
 }
 
+/* Below is all random info section*/
+
+.random-section {
+    height: 350px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 45px    
+}
+
+.bluebox1, .bluebox2, .bluebox3, .bluebox4 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #3882f6;
+    border-style: solid;
+}
