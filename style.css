@@ -7,6 +7,9 @@ body {
     margin: 0px;
 }
 
+
+/* Below is all header Section */
+
 .container {
     color: white;
     background-color: #1f2937;
@@ -131,4 +134,31 @@ h2 {
     text-align: center;
     margin-top: 15px;
 
+}
+
+/* Below is all quote section*/
+
+.quotesection{
+    height: 200px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    ;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.quote {
+    text-align: left;
+    font-style: italic
+}
+
+.thor {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 100px;
 }
