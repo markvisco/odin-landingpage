@@ -5,7 +5,6 @@
 
 body {
     margin: 0px;
-
 }
 
 .container {
@@ -18,7 +17,7 @@ body {
 
 .header {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 85px;
     width: 100%;
@@ -39,5 +38,50 @@ body {
     margin-right: 100px;
     flex-wrap: nowrap;
 
+}
+
+
+/* Below is all Hero Section */
+
+.hero-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #1f2937;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.hero-left {
+    color: white;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.box {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+h1 {
+    margin-bottom: 5px;
 }
 
