@@ -144,10 +144,11 @@ h2 {
     align-items: center;
     justify-content: center;
     font-size: 36px;
-    ;
     padding: 100px;
     display: flex;
     flex-direction: column;
+    border: red;
+    border-style: solid;
 
     
 }
@@ -160,5 +161,58 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     align-self: flex-end;
-    margin-right: 100px;
+    margin-right: 150px;
+}
+
+/* Below is all CTA section*/
+
+
+.cta-container{
+    height: 300px;
+    border: red;
+    border-style: solid;
+    
+}
+
+.cta-bluebox {
+    height: 150px;
+    background-color: #3882f6;
+    width: 975px;
+    border-radius: 15px;
+    margin: 75px auto;
+    border: red;
+    border-style: solid;
+
+
+}
+
+
+
+
+
+
+
+.bottom-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.footer{
+    height: 75px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    border: red;
+    border-style: solid;
 }
