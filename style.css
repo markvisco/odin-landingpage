@@ -182,17 +182,18 @@ h2 {
 
 
 .cta-container{
-    height: 300px;
+    height: 280px;
     /*border: red;
     border-style: solid;*/
 }
 
 .cta-bluebox {
-    height: 125px;
+    height: 150px;
     background-color: #3882f6;
     width: 975px;
     border-radius: 10px;
-    margin: 75px auto;
+    margin: auto;
+    margin-top: 125px;
     display: flex;
     align-items: center;
     justify-content: space-around;
